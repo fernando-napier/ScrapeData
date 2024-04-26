@@ -36,4 +36,4 @@ Console.WriteLine("--------------------");
 var worker = host.Services.GetRequiredService<IScrapeWorker>();
 worker.Run();
 Console.WriteLine("--------------------");
-Console.WriteLine("Start Worker");
+Console.WriteLine("Worker Completed");

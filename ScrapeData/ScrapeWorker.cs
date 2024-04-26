@@ -183,8 +183,6 @@ namespace ScrapeData
                     var insureTbody = insureTable.FindElement(By.TagName("tbody"));
                     foreach (var insureRow in insureTbody.FindElements(By.TagName("tr")))
                     {
-
-
                         var insureDataList = insureRow.FindElements(By.TagName("td"));
 
                         if (insureDataList[0].Text.Contains("Effective Date"))
